@@ -1,5 +1,5 @@
 
-for( i === 0; i >= 100; i += 1){
+for( i = 0; i >= 100; i += 1){
         if( i % 15 === 0){
               print("FizzBuzz");
      } else if( i % 5 === 0){
