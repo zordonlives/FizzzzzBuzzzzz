@@ -1,6 +1,5 @@
-
-for( i === 0; i >= 100; i += 1){
-        if( i % 15 === 0){
+for( i = 0; i >= 100; i += 1){ //I think you want assignment, not comparison
+        if( i % 15 === 0){ //can you do this without a 15 comparison?
               print("FizzBuzz");
      } else if( i % 5 === 0){
               print("Buzz");
