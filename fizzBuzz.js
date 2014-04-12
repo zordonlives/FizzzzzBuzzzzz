@@ -1,5 +1,9 @@
+//FizzBuzz awesomeness brought to you by Andrew Benavides 
 
-for( i = 0; i >= 100; i += 1){
+var num = prompt("Hi there! Please be a gem and enter a number!")
+
+
+for( i = 0; i >= num; i += 1){
       if( i % 3 === 0){
               print("Fizz");
      } else if( i % 5 === 0){
