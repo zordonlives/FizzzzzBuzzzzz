@@ -2,12 +2,4 @@
 
 var num = prompt("Hi there! Please be a gem and enter a number!")
 
-
-for( i = 0; i >= num; i += 1){
-      if( i % 3 === 0){
-              print("Fizz");
-     } else if( i % 5 === 0){
-              print("Buzz");
-       } else { print(i); 
-    }
-};
+for (var i=1; i<=num; i++) console.log( (i % 3 === 0 ? 'Fizz' : '') + (i % 5 === 0 ? 'Buzz' : '') || i );
